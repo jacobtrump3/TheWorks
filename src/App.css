@@ -1,0 +1,38 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    flex-grow: 4;
+    text-align: center;
+    
+
+}
+.pages-links{
+    width:15%;
+    background-color: darkblue;
+    margin: 0;
+}
+.pages-links >div>h4> a {
+    color: white;
+}
+
+h1{
+    font-size: 25pt;
+    width: 15%;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0;
+}
+
+.sublinks{
+    width:15%;
+    background-color: darkblue;
+    margin:0;
+
+}
+
+.sublinks >div> a{
+    color: white;
+}

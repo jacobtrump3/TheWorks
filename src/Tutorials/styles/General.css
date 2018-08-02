@@ -1,0 +1,52 @@
+.box-red{
+    border: 2px solid red;
+    position: relative;
+    width: 400px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+h2{
+    margin: auto;
+    font-size: 30pt;
+}
+
+h3{
+    font-size: 22pt;
+}
+.intro{
+    width: 60%;
+    margin: auto;
+    font-size: 20pt;
+    text-align: justify;
+
+}
+.snippet{
+    width: 60%;
+    margin: auto;
+    border: 3px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: -5px
+}
+
+.content{
+    width: 60%;
+    margin: auto;
+    font-size: 18pt;
+    text-align: justify;
+
+}
+.screenshot{
+    width: 60%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.screenshot > img{
+    width: 100%;
+
+}
