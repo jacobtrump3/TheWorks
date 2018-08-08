@@ -205,12 +205,14 @@ h4{
                     Final Notes: 
                     <br/><br/>
                     Error boundaries will not catch errors for:<br/>
+                    </p>
                     <ul>
                         <li>Event handlers eg. handleClick()</li>
                         <li>Asynchronous code eg. setTimeout or requestAnimationFrame callbacks</li>
                         <li>Server side rendering</li>
                         <li>Errors thrown in the error boundary itself</li>
                     </ul>
+                    <p>
                     <br/>
                     Errors that are not caught by and error boundary will result in the unmounting of the whole component tree This is in order to prevent a
                     broken UI from continuing to run and possibly causing more problems in the future.
